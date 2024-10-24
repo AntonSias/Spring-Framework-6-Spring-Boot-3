@@ -1,5 +1,7 @@
 # Desarrollo de Aplicaciones Web con Spring Framework 6 y Spring Boot 3
 
+![Spring Logo](./images/spring.png)
+
 Este repositorio contiene el código y los recursos para un proyecto de ejemplo en el que se desarrollan aplicaciones web utilizando **Spring Framework 6** y **Spring Boot 3**. A lo largo del proyecto, se implementan diversas funcionalidades esenciales para el desarrollo de software web moderno, integrando tecnologías frontend y backend, y cubriendo aspectos como la seguridad, persistencia de datos, y despliegue en producción.
 
 ## 📋 Funcionalidades principales:
