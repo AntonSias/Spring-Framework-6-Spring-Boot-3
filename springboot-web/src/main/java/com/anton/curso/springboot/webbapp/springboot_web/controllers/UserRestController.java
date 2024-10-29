@@ -1,6 +1,9 @@
 package com.anton.curso.springboot.webbapp.springboot_web.controllers;
 
 import java.util.HashMap;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Map;
 
 import org.springframework.context.expression.MapAccessor;
@@ -30,6 +33,24 @@ public class UserRestController {
         userDto.setTitle("Hola mundo Spring Boot");
        
         return userDto;
+    }
+
+
+    @GetMapping("/list")
+    public List<User> list(){
+
+        User user = new User("Anton", "Mesias");
+        User user2 = new User("Pepe", "Micos");
+        User user3 = new User("Josu", "Crespo");
+
+        List<User> users = Arrays.asList(user,user2,user3);
+        /*List<User> users = new ArrayList<>();
+        users.add(user);
+        users.add(user2);
+        users.add(user3);*/
+
+        return users;
+
     }
 
     @GetMapping(path = "/details-map")
